@@ -9,20 +9,21 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
-import os
-import sys
+#import os
+#import sys
 
-base_path = Path("../")
+#base_path = Path("../")
+#
+#sys.path.append(os.path.join(base_path, 'src'))
+#import plot_utils as plots
 
-sys.path.append(os.path.join(base_path, 'src'))
-
-import plot_utils as plots
+from src import plot_utils as plots
 
 import streamlit as st
 
-output_file = base_path / "data" / "raw" / "charlotte-puma.csv"
+output_file = Path("data/raw/charlotte-puma.csv") # base_path / "data" / "raw" / "charlotte-puma.csv"
 
-map_file = base_path / "data" / "raw" / "charlotte_puma_reference.png"
+map_file = Path("data/raw/charlotte_puma_reference.png")
 
 # --- Load Data ---
 
