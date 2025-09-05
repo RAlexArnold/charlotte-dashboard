@@ -208,8 +208,8 @@ __marimo__/
 
 
 # Data
-data/raw/*
-data/raw/charlotte-puma.csv  
+#data/raw/*
+#data/raw/charlotte-puma.csv  
 
 # Archive
 archive/*
