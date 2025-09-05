@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 #import os
-import sys
-repo_root = Path(__file__).resolve().parent
-sys.path.append(str(repo_root))
+#import sys
+#repo_root = Path(__file__).resolve().parent
+#sys.path.append(str(repo_root))
 
 #base_path = Path("../")
 #
@@ -211,7 +211,7 @@ with tab4:
     st.header('Reference PUMA Map')
     
     st.write('This dashboard assigns *PUMA 3703102* as **Northwest**, *PUMA 3703103* as **Northeast**, *PUMA 3703101* as **Central**, *PUMA 3703104* as **Southeast**, and *PUMA 3703105* as **Southwest**.')
-    st.image(map_file, caption='Charlotte PUMAs', use_container_width=True)
+    st.image(map_file, caption='Charlotte PUMAs', width='stretch')
     
     
 
