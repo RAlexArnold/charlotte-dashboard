@@ -10,7 +10,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
 #import os
-#import sys
+import sys
+repo_root = Path(__file__).resolve().parent
+sys.path.append(str(repo_root))
 
 #base_path = Path("../")
 #
